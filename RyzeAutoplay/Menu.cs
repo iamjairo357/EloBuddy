@@ -15,7 +15,7 @@ namespace RyzeAutoplay
         public void Init()
         {
             Menu = MainMenu.AddMenu("RyzeFollow", "ryzefollow");
-            Menu.Add("sliderdist", new Slider("Distance to ally", 70, 50, 300, 1000, 3400, 4500));
+            Menu.Add("sliderdist", new Slider("Distance to ally", 70, 50, 550,));
             Menu.Add("recall", new CheckBox("Recall if ally is recalling"));
             Agressive = Menu.AddSubMenu("Agressive mode", "agm");
             Agressive.Add("kill", new CheckBox("Orbwalk to target if enemy is killable"));
