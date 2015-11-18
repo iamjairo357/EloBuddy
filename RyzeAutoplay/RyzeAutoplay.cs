@@ -15,7 +15,7 @@ namespace RyzeAutoplay
         public static Spell.Active Heal;
         public static bool kill { get { return RyzeMenu.Agressive["kill"].Cast<CheckBox>().CurrentValue; } }
         public static Spell.Active Clarity;
-        public static AIHeroClient myHero { get { return ObjectManager.Player; } }
+        public static AIHeroClient myHero { get { return ObjectManager.minion; } }
         public static Spell.Skillshot Q;
         public static Spell.Targeted W;
         public static Spell.Targeted E;
